@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{05108114-01FE-4A6C-B49E-422BADFABFAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MahaloForms</RootNamespace>
+    <AssemblyName>MahaloForms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Férias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Férias.Designer.cs">
+      <DependentUpon>Férias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FolhadePagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FolhadePagamento.Designer.cs">
+      <DependentUpon>FolhadePagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FolhadePonto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FolhadePonto.Designer.cs">
+      <DependentUpon>FolhadePonto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastrodeFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastrodeFuncionario.Designer.cs">
+      <DependentUpon>CadastrodeFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConsultarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarFuncionario.Designer.cs">
+      <DependentUpon>ConsultarFuncionario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConsultarFuncionario.resx">
+      <DependentUpon>ConsultarFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Férias.resx">
+      <DependentUpon>Férias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolhadePagamento.resx">
+      <DependentUpon>FolhadePagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FolhadePonto.resx">
+      <DependentUpon>FolhadePonto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastrodeFuncionario.resx">
+      <DependentUpon>CadastrodeFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_709722.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-with-a-clock-time-tools_icon-icons.com_56831.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button_icon-icons.com_72701.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button_icon-icons.com_727011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura_da_Web_8-9-2023_12641_-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button_icon-icons.com_72701.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-with-a-clock-time-tools_icon-icons.com_56831.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button_icon-icons.com_727011.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay_day_finance_calendar_business_salary_payment_icon_232650.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button_icon-icons.com_727012.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\history-clock-button_icon-icons.com_72701 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_709722 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\network %282%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
