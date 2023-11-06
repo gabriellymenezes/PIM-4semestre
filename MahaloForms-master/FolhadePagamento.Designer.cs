@@ -110,7 +110,7 @@
             this.label3.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(723, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(386, 45);
+            this.label3.Size = new System.Drawing.Size(306, 36);
             this.label3.TabIndex = 14;
             this.label3.Text = "Folha de Pagamento";
             // 
@@ -125,7 +125,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1362, 46);
+            this.menuStrip1.Size = new System.Drawing.Size(1354, 40);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "stripmenu";
             // 
@@ -141,7 +141,7 @@
             this.mENUToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.mENUToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("mENUToolStripMenuItem.Image")));
             this.mENUToolStripMenuItem.Name = "mENUToolStripMenuItem";
-            this.mENUToolStripMenuItem.Size = new System.Drawing.Size(148, 42);
+            this.mENUToolStripMenuItem.Size = new System.Drawing.Size(126, 36);
             this.mENUToolStripMenuItem.Text = "MENU";
             this.mENUToolStripMenuItem.Click += new System.EventHandler(this.mENUToolStripMenuItem_Click);
             // 
@@ -150,7 +150,7 @@
             this.DadosPessoaisToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.DadosPessoaisToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("DadosPessoaisToolStripMenuItem.Image")));
             this.DadosPessoaisToolStripMenuItem.Name = "DadosPessoaisToolStripMenuItem";
-            this.DadosPessoaisToolStripMenuItem.Size = new System.Drawing.Size(458, 42);
+            this.DadosPessoaisToolStripMenuItem.Size = new System.Drawing.Size(389, 36);
             this.DadosPessoaisToolStripMenuItem.Text = "Cadastro de Funcionário";
             this.DadosPessoaisToolStripMenuItem.Click += new System.EventHandler(this.DadosPessoaisToolStripMenuItem_Click);
             // 
@@ -159,7 +159,7 @@
             this.consultarFuncionárioToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.consultarFuncionárioToolStripMenuItem.Image = global::MahaloForms.Properties.Resources.network;
             this.consultarFuncionárioToolStripMenuItem.Name = "consultarFuncionárioToolStripMenuItem";
-            this.consultarFuncionárioToolStripMenuItem.Size = new System.Drawing.Size(458, 42);
+            this.consultarFuncionárioToolStripMenuItem.Size = new System.Drawing.Size(389, 36);
             this.consultarFuncionárioToolStripMenuItem.Text = "Consultar Funcionário";
             this.consultarFuncionárioToolStripMenuItem.Click += new System.EventHandler(this.consultarFuncionárioToolStripMenuItem_Click);
             // 
@@ -169,7 +169,7 @@
             this.FériasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("FériasToolStripMenuItem.Image")));
             this.FériasToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Coral;
             this.FériasToolStripMenuItem.Name = "FériasToolStripMenuItem";
-            this.FériasToolStripMenuItem.Size = new System.Drawing.Size(458, 42);
+            this.FériasToolStripMenuItem.Size = new System.Drawing.Size(389, 36);
             this.FériasToolStripMenuItem.Text = "Férias";
             this.FériasToolStripMenuItem.Click += new System.EventHandler(this.FériasToolStripMenuItem_Click);
             // 
@@ -178,7 +178,7 @@
             this.BancodeHorasToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.BancodeHorasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("BancodeHorasToolStripMenuItem.Image")));
             this.BancodeHorasToolStripMenuItem.Name = "BancodeHorasToolStripMenuItem";
-            this.BancodeHorasToolStripMenuItem.Size = new System.Drawing.Size(458, 42);
+            this.BancodeHorasToolStripMenuItem.Size = new System.Drawing.Size(389, 36);
             this.BancodeHorasToolStripMenuItem.Text = "Folha de Ponto";
             this.BancodeHorasToolStripMenuItem.Click += new System.EventHandler(this.BancodeHorasToolStripMenuItem_Click);
             // 
@@ -187,7 +187,7 @@
             this.SairToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.SairToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("SairToolStripMenuItem.Image")));
             this.SairToolStripMenuItem.Name = "SairToolStripMenuItem";
-            this.SairToolStripMenuItem.Size = new System.Drawing.Size(458, 42);
+            this.SairToolStripMenuItem.Size = new System.Drawing.Size(389, 36);
             this.SairToolStripMenuItem.Text = "Sair";
             this.SairToolStripMenuItem.Click += new System.EventHandler(this.SairToolStripMenuItem_Click);
             // 
@@ -196,7 +196,7 @@
             this.txtmes.Location = new System.Drawing.Point(236, 58);
             this.txtmes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmes.Name = "txtmes";
-            this.txtmes.Size = new System.Drawing.Size(135, 26);
+            this.txtmes.Size = new System.Drawing.Size(135, 22);
             this.txtmes.TabIndex = 26;
             // 
             // button1btnPagar
@@ -217,7 +217,8 @@
             this.txtNomeFuncionario.Location = new System.Drawing.Point(2, 23);
             this.txtNomeFuncionario.Margin = new System.Windows.Forms.Padding(2);
             this.txtNomeFuncionario.Name = "txtNomeFuncionario";
-            this.txtNomeFuncionario.Size = new System.Drawing.Size(193, 26);
+            this.txtNomeFuncionario.ReadOnly = true;
+            this.txtNomeFuncionario.Size = new System.Drawing.Size(193, 22);
             this.txtNomeFuncionario.TabIndex = 14;
             // 
             // txtCPFFuncionario
@@ -225,7 +226,8 @@
             this.txtCPFFuncionario.Location = new System.Drawing.Point(2, 23);
             this.txtCPFFuncionario.Margin = new System.Windows.Forms.Padding(2);
             this.txtCPFFuncionario.Name = "txtCPFFuncionario";
-            this.txtCPFFuncionario.Size = new System.Drawing.Size(209, 26);
+            this.txtCPFFuncionario.ReadOnly = true;
+            this.txtCPFFuncionario.Size = new System.Drawing.Size(209, 22);
             this.txtCPFFuncionario.TabIndex = 15;
             // 
             // txtCargo
@@ -233,7 +235,8 @@
             this.txtCargo.Location = new System.Drawing.Point(2, 26);
             this.txtCargo.Margin = new System.Windows.Forms.Padding(2);
             this.txtCargo.Name = "txtCargo";
-            this.txtCargo.Size = new System.Drawing.Size(152, 26);
+            this.txtCargo.ReadOnly = true;
+            this.txtCargo.Size = new System.Drawing.Size(152, 22);
             this.txtCargo.TabIndex = 12;
             // 
             // txtINSS
@@ -241,7 +244,8 @@
             this.txtINSS.Location = new System.Drawing.Point(2, 21);
             this.txtINSS.Margin = new System.Windows.Forms.Padding(2);
             this.txtINSS.Name = "txtINSS";
-            this.txtINSS.Size = new System.Drawing.Size(123, 26);
+            this.txtINSS.ReadOnly = true;
+            this.txtINSS.Size = new System.Drawing.Size(123, 22);
             this.txtINSS.TabIndex = 21;
             // 
             // labelSalarioLiquido
@@ -250,7 +254,7 @@
             this.labelSalarioLiquido.Location = new System.Drawing.Point(2, 0);
             this.labelSalarioLiquido.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelSalarioLiquido.Name = "labelSalarioLiquido";
-            this.labelSalarioLiquido.Size = new System.Drawing.Size(123, 19);
+            this.labelSalarioLiquido.Size = new System.Drawing.Size(97, 16);
             this.labelSalarioLiquido.TabIndex = 11;
             this.labelSalarioLiquido.Text = "Salario Liquido:";
             // 
@@ -259,7 +263,8 @@
             this.txtCNPJEmpresa.Location = new System.Drawing.Point(2, 22);
             this.txtCNPJEmpresa.Margin = new System.Windows.Forms.Padding(2);
             this.txtCNPJEmpresa.Name = "txtCNPJEmpresa";
-            this.txtCNPJEmpresa.Size = new System.Drawing.Size(188, 26);
+            this.txtCNPJEmpresa.ReadOnly = true;
+            this.txtCNPJEmpresa.Size = new System.Drawing.Size(188, 22);
             this.txtCNPJEmpresa.TabIndex = 17;
             // 
             // txtSalarioBruto
@@ -267,7 +272,8 @@
             this.txtSalarioBruto.Location = new System.Drawing.Point(2, 21);
             this.txtSalarioBruto.Margin = new System.Windows.Forms.Padding(2);
             this.txtSalarioBruto.Name = "txtSalarioBruto";
-            this.txtSalarioBruto.Size = new System.Drawing.Size(202, 26);
+            this.txtSalarioBruto.ReadOnly = true;
+            this.txtSalarioBruto.Size = new System.Drawing.Size(202, 22);
             this.txtSalarioBruto.TabIndex = 19;
             // 
             // txtFGTS
@@ -275,7 +281,8 @@
             this.txtFGTS.Location = new System.Drawing.Point(2, 21);
             this.txtFGTS.Margin = new System.Windows.Forms.Padding(2);
             this.txtFGTS.Name = "txtFGTS";
-            this.txtFGTS.Size = new System.Drawing.Size(117, 26);
+            this.txtFGTS.ReadOnly = true;
+            this.txtFGTS.Size = new System.Drawing.Size(117, 22);
             this.txtFGTS.TabIndex = 20;
             // 
             // txtIRRF
@@ -283,7 +290,8 @@
             this.txtIRRF.Location = new System.Drawing.Point(2, 21);
             this.txtIRRF.Margin = new System.Windows.Forms.Padding(2);
             this.txtIRRF.Name = "txtIRRF";
-            this.txtIRRF.Size = new System.Drawing.Size(117, 26);
+            this.txtIRRF.ReadOnly = true;
+            this.txtIRRF.Size = new System.Drawing.Size(117, 22);
             this.txtIRRF.TabIndex = 22;
             // 
             // txtTotalDescontos
@@ -291,7 +299,8 @@
             this.txtTotalDescontos.Location = new System.Drawing.Point(2, 21);
             this.txtTotalDescontos.Margin = new System.Windows.Forms.Padding(2);
             this.txtTotalDescontos.Name = "txtTotalDescontos";
-            this.txtTotalDescontos.Size = new System.Drawing.Size(126, 26);
+            this.txtTotalDescontos.ReadOnly = true;
+            this.txtTotalDescontos.Size = new System.Drawing.Size(126, 22);
             this.txtTotalDescontos.TabIndex = 23;
             // 
             // txtSalarioLiquido
@@ -299,7 +308,8 @@
             this.txtSalarioLiquido.Location = new System.Drawing.Point(2, 21);
             this.txtSalarioLiquido.Margin = new System.Windows.Forms.Padding(2);
             this.txtSalarioLiquido.Name = "txtSalarioLiquido";
-            this.txtSalarioLiquido.Size = new System.Drawing.Size(117, 26);
+            this.txtSalarioLiquido.ReadOnly = true;
+            this.txtSalarioLiquido.Size = new System.Drawing.Size(117, 22);
             this.txtSalarioLiquido.TabIndex = 24;
             // 
             // txtano
@@ -307,7 +317,8 @@
             this.txtano.Location = new System.Drawing.Point(3, 19);
             this.txtano.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtano.Name = "txtano";
-            this.txtano.Size = new System.Drawing.Size(116, 26);
+            this.txtano.ReadOnly = true;
+            this.txtano.Size = new System.Drawing.Size(116, 22);
             this.txtano.TabIndex = 25;
             // 
             // label1
@@ -315,7 +326,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 19);
+            this.label1.Size = new System.Drawing.Size(42, 16);
             this.label1.TabIndex = 27;
             this.label1.Text = "Nome";
             // 
@@ -324,7 +335,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 19);
+            this.label2.Size = new System.Drawing.Size(34, 16);
             this.label2.TabIndex = 28;
             this.label2.Text = "CPF";
             // 
@@ -333,7 +344,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 19);
+            this.label4.Size = new System.Drawing.Size(42, 16);
             this.label4.TabIndex = 29;
             this.label4.Text = "Cargo";
             // 
@@ -343,7 +354,7 @@
             this.label5.Location = new System.Drawing.Point(2, 0);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 16);
+            this.label5.Size = new System.Drawing.Size(33, 15);
             this.label5.TabIndex = 30;
             this.label5.Text = "Mês";
             // 
@@ -353,7 +364,7 @@
             this.label6.Location = new System.Drawing.Point(2, 0);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
+            this.label6.Size = new System.Drawing.Size(31, 15);
             this.label6.TabIndex = 31;
             this.label6.Text = "Ano";
             // 
@@ -363,7 +374,7 @@
             this.label7.Location = new System.Drawing.Point(2, 0);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 19);
+            this.label7.Size = new System.Drawing.Size(41, 16);
             this.label7.TabIndex = 32;
             this.label7.Text = "CNPJ";
             // 
@@ -372,7 +383,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(3, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 19);
+            this.label9.Size = new System.Drawing.Size(83, 16);
             this.label9.TabIndex = 34;
             this.label9.Text = "Salário Bruto";
             // 
@@ -381,7 +392,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(3, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(47, 19);
+            this.label10.Size = new System.Drawing.Size(38, 16);
             this.label10.TabIndex = 35;
             this.label10.Text = "INSS";
             // 
@@ -390,7 +401,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(3, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(51, 19);
+            this.label11.Size = new System.Drawing.Size(42, 16);
             this.label11.TabIndex = 36;
             this.label11.Text = "FGTS";
             // 
@@ -399,7 +410,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(3, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(46, 19);
+            this.label12.Size = new System.Drawing.Size(37, 16);
             this.label12.TabIndex = 37;
             this.label12.Text = "IRRF";
             // 
@@ -408,7 +419,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(3, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(146, 19);
+            this.label13.Size = new System.Drawing.Size(119, 16);
             this.label13.TabIndex = 38;
             this.label13.Text = "Total de Descontos";
             // 
@@ -418,7 +429,7 @@
             this.label15.Location = new System.Drawing.Point(2, 54);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(135, 19);
+            this.label15.Size = new System.Drawing.Size(109, 16);
             this.label15.TabIndex = 40;
             this.label15.Text = "Selecione o Mês:";
             // 
@@ -445,7 +456,7 @@
             this.txtpesquisarfuncionario.Location = new System.Drawing.Point(235, 2);
             this.txtpesquisarfuncionario.Margin = new System.Windows.Forms.Padding(2);
             this.txtpesquisarfuncionario.Name = "txtpesquisarfuncionario";
-            this.txtpesquisarfuncionario.Size = new System.Drawing.Size(68, 26);
+            this.txtpesquisarfuncionario.Size = new System.Drawing.Size(68, 22);
             this.txtpesquisarfuncionario.TabIndex = 9;
             // 
             // label14
@@ -454,16 +465,17 @@
             this.label14.Location = new System.Drawing.Point(2, 0);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(225, 19);
+            this.label14.Size = new System.Drawing.Size(174, 16);
             this.label14.TabIndex = 39;
             this.label14.Text = "Pesquisar funcionario por ID:";
             // 
             // txtmes2
             // 
-            this.txtmes2.Location = new System.Drawing.Point(3, 20);
+            this.txtmes2.Location = new System.Drawing.Point(3, 19);
             this.txtmes2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtmes2.Name = "txtmes2";
-            this.txtmes2.Size = new System.Drawing.Size(116, 26);
+            this.txtmes2.ReadOnly = true;
+            this.txtmes2.Size = new System.Drawing.Size(116, 22);
             this.txtmes2.TabIndex = 42;
             // 
             // txtIdFuncionario
@@ -471,7 +483,8 @@
             this.txtIdFuncionario.Location = new System.Drawing.Point(2, 22);
             this.txtIdFuncionario.Margin = new System.Windows.Forms.Padding(2);
             this.txtIdFuncionario.Name = "txtIdFuncionario";
-            this.txtIdFuncionario.Size = new System.Drawing.Size(88, 26);
+            this.txtIdFuncionario.ReadOnly = true;
+            this.txtIdFuncionario.Size = new System.Drawing.Size(88, 22);
             this.txtIdFuncionario.TabIndex = 13;
             // 
             // label8
@@ -480,7 +493,7 @@
             this.label8.Location = new System.Drawing.Point(2, 0);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(26, 19);
+            this.label8.Size = new System.Drawing.Size(20, 16);
             this.label8.TabIndex = 33;
             this.label8.Text = "ID";
             // 
@@ -700,12 +713,12 @@
             // 
             // FolhadePagamento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1362, 741);
+            this.ClientSize = new System.Drawing.Size(1354, 733);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.button1btnPagar);
